@@ -55,7 +55,7 @@ for idx in range(1,41):#1~40 까지
     else: #파일이 없는경우 헤더를 포함시켜야된다
         df.to_csv(f_name,encoding='utf-8-sig',index=False)
 
-    print(f'{idx} 페이지 완료')
+    print(f'{idx} 페이지 완료!')
 
 
 browser.quit()#브라우저 종료
